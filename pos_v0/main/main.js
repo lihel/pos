@@ -9,7 +9,6 @@ function printReceipt(inputs) {
     sum = sum + inputs[i].count * inputs[i].price;
 
     arr.push("名称：" + inputs[i].name + "，数量：" + inputs[i].count +  inputs[i].unit + "，" + "单价：" + inputs[i].price + ".00(元)，" + "小计：" + inputs[i].count * inputs[i].price + ".00(元)\n");
-
     string = string + arr[i];
   }
 
